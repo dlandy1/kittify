@@ -1,3 +1,4 @@
+//= require jquery
 $(document).ready(function() {
   String.prototype.allReplace = function(obj) {
     var retStr = this;
