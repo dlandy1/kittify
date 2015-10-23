@@ -17,6 +17,7 @@ body{
 .hundred{
   position: relative;
   text-align: center;
+    margin-top: 10px;
 }
 #scratch{
   margin-bottom: 10px;
@@ -56,4 +57,44 @@ body{
 }
 p{
   margin: 0px;
+}
+.works{
+    top: 5%;
+    width: 50%;
+    margin: 0px 25%;
+    border-radius: 3px;
+    padding: 10px 25px;
+    position: absolute;
+    background-color: white;
+    overflow-x: auto;
+    overflow-y: scroll;
+    height: 90%;
+}
+.inline{
+  display: inline-block;
+}
+.screen{
+      background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+li{
+  padding: 10px;
+}
+a{
+  color: blue;
+}
+.close{
+    position: absolute;
+    right: 5%;
+    color: #696969;
+    font-size: 34px;
+    padding: 6px 14px;
+    background-color: #FFFFFF;
+    border-radius: 54%;
+    top: 5%;
+    text-decoration: none;
 }
